@@ -1,1 +1,1 @@
-The colors of poise.
+![The colors of poise](screenshot.png)
