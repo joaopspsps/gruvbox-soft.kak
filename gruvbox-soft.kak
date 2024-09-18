@@ -32,7 +32,7 @@ evaluate-commands %sh{
 		face global LineNumbersWrapped $bg0,$bg0
 		face global MenuForeground     $bg1,$blue
 		face global MenuBackground     $fg0,$bg1
-		face global MenuInfo	       $bg0
+		face global MenuInfo	       $fg3
 		face global Information	       $fg0,$bg1
 		face global Error	       $bg0,$red
 		face global DiagnosticError    $red
@@ -44,7 +44,7 @@ evaluate-commands %sh{
 		face global StatusCursor       $bg0,$fg0
 		face global Prompt	       $yellow
 		face global MatchingChar       $fg0,$bg2+bu
-		face global BufferPadding      $bg1,$bg0
+		face global BufferPadding      $bg2,$bg0
 		face global Whitespace	       $bg3
 
 		# code
