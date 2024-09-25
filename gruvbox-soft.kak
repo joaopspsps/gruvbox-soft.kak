@@ -21,9 +21,9 @@ evaluate-commands %sh{
 	echo "
 		# builtin faces
 		face global Default	       $fg0,$bg0
-		face global PrimarySelection   $fg1,$bg2+fg
-		face global SecondarySelection $fg2,$bg1+fg
-		face global PrimaryCursor      $fg1,$bg3+fgr
+		face global PrimarySelection   $fg0,$bg3+fg
+		face global SecondarySelection $fg3,$bg1+fg
+		face global PrimaryCursor      $fg0,$bg3+fgr
 		face global SecondaryCursor    $fg3,$bg1+fgr
 		face global PrimaryCursorEol   $fg1,$bg3+fgr
 		face global SecondaryCursorEol $fg3,$bg1+fgr
