@@ -29,7 +29,7 @@ evaluate-commands %sh{
 		face global SecondaryCursorEol $fg3,$bg1+fgr
 		face global LineNumbers	       comment
 		face global LineNumberCursor   $yellow,$bg1
-		face global LineNumbersWrapped $bg0,$bg0
+		face global LineNumbersWrapped $grey,$bg0+u
 		face global MenuForeground     $bg1,$blue
 		face global MenuBackground     $fg0,$bg1
 		face global MenuInfo	       $fg3
